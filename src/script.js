@@ -34,7 +34,7 @@
     const timeNow = ".timeNow";
     const element = ".container-time .timeNow";
     
-    attr(iframe, {src: "https://zazerconer.github.io/live-tv-malaysia-with-player/channel/rtm/tv1/index.html"});
+    attr(iframe, {src: "https://cee-tv.github.io/withepg/channel/rtm/tv1/index.html"});
 
     readyStart(iframe, ()=> {
       style(iframe, {visibility: "visible"});
@@ -57,7 +57,7 @@
           });
         });
         fadeOut(iframe, 100);
-        attr(iframe, {src: `https://zazerconer.github.io/live-tv-malaysia-with-player${attr(list, "target")}`});
+        attr(iframe, {src: `https://cee-tv.github.io/withepg${attr(list, "target")}`});
         style(list, {
           color: "#7ccae9"
         });
