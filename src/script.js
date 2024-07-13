@@ -34,7 +34,7 @@
     const timeNow = ".timeNow";
     const element = ".container-time .timeNow";
     
-    attr(iframe, {src: "https://zazerconer.github.io/live-tv-malaysia-with-player/channel/rtm/tv1/index.html"});
+    attr(iframe, {src: ""});
 
     readyStart(iframe, ()=> {
       style(iframe, {visibility: "visible"});
